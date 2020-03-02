@@ -1,0 +1,13 @@
+p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font: 50px bold;
+}
+@media screen and (max-width: 1000px){
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+}
