@@ -5,6 +5,11 @@ p{
     transform: translate(-50%,-50%);
     font: 50px bold;
 }
+.camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media screen and (max-width: 1000px){
     p{
         text-align: center;
